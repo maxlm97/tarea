@@ -1,0 +1,455 @@
+package tareauni1;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+	multiplicar();
+	}
+	public static void multiplicar(){
+	int a=4, b=8;
+	int multiplicar= a*b;
+	System.out.println("El resultado es:"+multiplicar );
+	}
+	}
+
+
+
+package tareauni1;
+
+public class ejercicio2 {
+	public static void main(String[] args) {
+		dividir();
+		}
+		public static void dividir(){
+		int x=10, y=2;
+		int dividir= x/y;
+		System.out.println("El resultado es:"+dividir);
+		}
+		}
+    
+    
+    package tareauni1;
+
+public class ejercicio3 {
+	public static void main(String[] args) {
+		suma();
+		}
+		public static void suma(){
+		int a=10, b=4;
+		int suma= a+b;
+		System.out.println("El resultado es:"+suma);
+		}
+		}
+
+
+
+package tareauni1;
+
+public class ejercicio4 {
+
+		public static void main(String[] args) {
+			multiplicar();
+			}
+	public static void multiplicar(){
+		int z1=5, z2=2;
+		int multiplicar= z1*z2;
+
+	System.out.println("El resultado es:"+multiplicar );
+			}
+			}
+
+
+
+
+package tareauni1;
+
+public class ejercicio5 {
+	public static void main(String[] args) {
+		resta();
+		}
+		public static void resta(){
+		int y=10, z=8;
+		int resta= y-z;
+		System.out.println("El resultado es:"+resta );
+		}
+		}
+
+
+
+package tareauni1;
+
+public class ejercicio6 {
+	
+	public static void main(String[] args){
+		
+		restar(10,45);
+		
+	}
+		public  static void restar( int x, int y) {
+			int restar;
+			restar = y-x;
+			
+					System.out.println("El resultado de la resta es:"+restar);
+		}
+ 
+	}
+
+	
+
+package tareauni1;
+
+public class ejercicio7{
+
+	public static void main(String[] args) {
+  sumar(22,3);
+		
+	}
+		public  static void sumar( int a, int b) {
+			int sumar;
+			sumar= a+b;
+			
+					System.out.println("El resultado de la suma es:"+sumar);
+		
+	}
+
+}
+
+
+package tareauni1;
+
+public class ejercicio8{
+	public static void main(String[] args) {
+		div(6,2);
+		
+	}
+		public  static void div( int x, int y) {
+			int div;
+			div = x
+					/y;
+			
+					System.out.println("El resultado de la division es:"+div);
+		
+
+	}
+
+}
+
+package tareauni1;
+
+public class ejercicio9{
+
+	public static void main(String[] args) {
+		mult(10,3);
+		
+	}
+		public  static void mult( int x, int y) {
+			int multi;
+			multi = y*x;
+			
+					System.out.println("El resultado de la multiplicacion es:"+multi);
+		}
+ 
+	}
+  
+  
+  
+public class ejercicio 10{
+
+	public static void main(String[] args) {
+restar(15,5);
+sumar(30,11);
+
+		
+	}
+		public  static void restar( int x, int y) {
+			int restar;
+			restar = x-y;
+			
+					System.out.println("El resultado de la resta es:"+restar);
+		
+
+
+}
+	public  static void sumar( int x, int y) {
+		int sumar;
+		sumar =x+y ;
+    System.out.println("El resultado de la sunma es:"+sumar);
+    }
+    }
+    
+    
+    
+    
+    package tareauni1;
+
+public class ejercicio11 {
+
+public static void main(String args[]){}
+public void iniciar(){
+			int suma = suma();
+			
+			
+			System.out.println("El resultado de la suma es: " + suma);
+			}
+
+			public int suma(){
+			int x = 5;
+			int y = 2;
+			int resultado = x+y;
+			return resultado;
+
+	}
+
+ }
+ 
+ 
+ 
+ 
+package tareauni1;
+
+public class Ejercicio11 {
+
+public void iniciar(){
+	int resta = resta();
+	System.out.println("El resultado de la resta es: " + resta);
+	}
+
+
+	public int resta(){
+	int x = 30;
+	int y = 11;
+	int resultado = x-y;
+	return resultado;
+
+}
+}
+
+
+
+
+package tareauni1;
+
+public class Ejercicio12 {
+	public static void main(String args[]){
+	}
+	public void iniciar(){
+		int div = div();
+		System.out.println("El resultado de la division es: " + div);
+		}
+
+
+		public int div(){
+		int x = 12;
+		int y = 3;
+		int resultado = (x/y);
+		return resultado;
+
+
+	}
+	}
+  
+  
+  
+  
+  
+  package tareauni1;
+
+public class Ejercicio13 {
+
+	public static void main(String[] args) {
+
+	}
+		public void iniciar(){
+					int multi = multi();
+					System.out.println("El resultado de la multiplicacion es: " +multi);
+					}
+
+
+					public int multi(){
+					int x = 16;
+					int y = 4;
+					int resultado = x*y;
+					return resultado;
+}
+}
+
+
+
+
+
+
+package tareauni1;
+
+public class Ejercicio14 {
+	public static void main(String[]arg){
+		
+	}
+	public void sumar(){
+					int multi=multi();
+					System.out.println("El resultado de la suma es: " +multi);
+					}
+
+
+					public int multi(){
+					int x = 9;
+					int y = 3;
+					int resultado = x*y;
+					return resultado;
+				
+
+	}
+
+}
+
+
+
+
+
+
+package tareauni1;
+
+public class Ejercicio15 {
+
+	public static void main(String[] args) {
+		int resul;
+		resul = division (20,4);
+		imprimir(resul);
+		}
+	public static int division(int x, int y){
+		int divi=x/y;
+		return divi;
+	}
+	public static void imprimir(int z){
+		System.out.println("el reultado es: "+z);
+	}
+
+}
+
+
+
+
+
+
+package tareauni1;
+
+public class Ejercicio16 {
+	public static void main(String[] args) {
+		int resul;
+		resul=sumar(5,7);
+		imprimir(resul);
+		}
+	public static int sumar(int x, int y){
+		int suma=x+y;
+		return suma;
+	}
+	public static void imprimir(int z){
+		System.out.println("el resultado es: "+z);
+
+	}
+
+}
+
+
+
+
+
+
+package tareauni1;
+
+public class Ejercicio17 {
+
+		public static void main(String[] args) {
+			int resul;
+			resul=restar(500,128);
+			imprimir(resul);
+			}
+		public static int restar(int x, int y){
+			int resta=x-y;
+			return resta;
+		}
+		public static void imprimir(int a){
+			System.out.println("el resultado de la resta es: "+a);
+
+		}
+
+	}
+  
+  
+  
+  
+  
+  
+  
+  
+  package tareauni1;
+
+public class Ejercicio18 {
+	public static void main(String[] args) {
+		int resul;
+		resul=div(10,2);
+		imprimir(resul);
+		}
+	public static int div(int x, int y){
+		int div=x/y;
+		return div;
+	}
+	public static void imprimir(int a){
+		System.out.println("el resultado de la resta es: "+a);
+
+	}
+
+}
+
+
+
+
+
+package tareauni1;
+
+public class Ejercicio19 {
+	public static void main(String[] args) {
+		int resul;
+		resul=mult(1000,500);
+		imprimir(resul);
+		}
+	public static int mult(int x, int y){
+		int mult=x*y;
+		return mult;
+	}
+	public static void imprimir(int a){
+		System.out.println("el resultado de la resta es: "+a);
+
+	}
+
+}
+
+
+
+
+package tareauni1;
+
+public class Ejercicio20 {
+	public static void main(String[] args) {
+		int resul;
+		resul=suma(1000,500);
+		imprimir(resul);
+		}
+	public static int suma(int x, int y){
+		int suma=x+y;
+		return suma;
+	}
+	public static void imprimir(int a){
+		System.out.println("el resultado de la resta es: "+a);
+
+	}
+
+}
+
+
+
+
+
+
+
+
+    
